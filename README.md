@@ -1,39 +1,98 @@
-<h1 align="center">Realtime Spotify Application ✨</h1>
+# 🎧 Spotify MERN Clone
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A full-stack Spotify clone built using the MERN stack (MongoDB, Express, React, Node.js). Features music streaming, user authentication, playlists, and a clean responsive UI.
 
-[Watch Full Tutorial on Youtube](https://youtu.be/4sbklcQ0EXc)
+## 🚀 Features
 
-About This Course:
+- User authentication with JWT
+- Music upload & playback
+- Create and manage playlists
+- Like/favorite tracks
+- Search songs, artists, albums
+- Admin dashboard for managing content
+- Responsive design with Tailwind CSS
 
--   🎸 Listen to music, play next and previous songs
--   🔈 Update the volume with a slider
--   🎧 Admin dashboard to create albums and songs
--   💬 Real-time Chat App integrated into Spotify
--   👨🏼‍💼 Online/Offline status
--   👀 See what other users are listening to in real-time
--   📊 Aggregate data for the analytics page
--   🚀 And a lot more...
+## 🛠 Tech Stack
 
-### Setup .env file in _backend_ folder
+- **Frontend**: React, Redux Toolkit, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB, Mongoose
+- **Authentication**: JWT, bcrypt
+- **Other**: Redis (caching), Cloudinary (media), Brevo (SMTP)
 
-```bash
-PORT=...
-MONGODB_URI=...
-ADMIN_EMAIL=...
-NODE_ENV=...
+## 📁 Project Structure
 
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-CLOUDINARY_CLOUD_NAME=...
-
-
-CLERK_PUBLISHABLE_KEY=...
-CLERK_SECRET_KEY=...
 ```
 
-### Setup .env file in _frontend_ folder
+spotify-mern/
+├── client/         # React frontend
+├── server/         # Express backend
+├── .env            # Environment variables
+└── README.md
+
+````
+
+## 🔧 Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/spotify-mern.git
+cd spotify-mern
+````
+
+### 2. Install dependencies
 
 ```bash
-VITE_CLERK_PUBLISHABLE_KEY=...
+cd server && npm install
+cd ../client && npm install
 ```
+
+### 3. Configure environment variables
+
+Create `.env` files in both `client` and `server` directories.
+
+**server/.env**
+
+```
+PORT=5000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+REDIS_URL=redis://localhost:6379
+```
+
+**client/.env**
+
+```
+VITE_API_URL=http://localhost:5000
+```
+
+### 4. Run the development servers
+
+**Backend**
+
+```bash
+cd server
+npm run dev
+```
+
+**Frontend**
+
+```bash
+cd client
+npm run dev
+```
+
+Access the app at: [http://localhost:5173](http://localhost:5173)
+
+## 📸 Screenshots
+
+------Currently NA-------
+
+## 📄 License
+
+MIT
+
+## ✨ Author
+
+Bit Gladiator(https://github.com/bitgladiator)
+
