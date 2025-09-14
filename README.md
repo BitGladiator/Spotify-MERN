@@ -1,8 +1,8 @@
-# 🎧 Spotify MERN Clone
+#  Spotify MERN Clone
 
 A full-stack Spotify clone built using the MERN stack (MongoDB, Express, React, Node.js). Features music streaming, user authentication, playlists, and a clean responsive UI.
 
-## 🚀 Features
+##  Features
 
 - User authentication with JWT
 - Music upload & playback
@@ -12,7 +12,7 @@ A full-stack Spotify clone built using the MERN stack (MongoDB, Express, React, 
 - Admin dashboard for managing content
 - Responsive design with Tailwind CSS
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend**: React, Redux Toolkit, Tailwind CSS
 - **Backend**: Node.js, Express.js
@@ -20,7 +20,7 @@ A full-stack Spotify clone built using the MERN stack (MongoDB, Express, React, 
 - **Authentication**: JWT, bcrypt
 - **Other**: Redis (caching), Cloudinary (media), Brevo (SMTP)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 
@@ -32,7 +32,7 @@ spotify-mern/
 
 ````
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the repository
 ```bash
@@ -84,15 +84,15 @@ npm run dev
 
 Access the app at: [http://localhost:5173](http://localhost:5173)
 
-## 📸 Screenshots
+##  Screenshots
 
 ------Currently NA-------
 
-## 📄 License
+##  License
 
 MIT
 
-## ✨ Author
+##  Author
 
 Bit Gladiator(https://github.com/bitgladiator)
 
